@@ -15,13 +15,13 @@ client.on("ready", () => {
   });
 
   // info command
-  command()
+
 
   // counts total members
   command(client, "server", (message) => {
     client.guilds.cache.forEach((guild) => {
       message.channel.send(
-        `Name: ${guild.name} Members: ${guild.memberCount}`
+        `\`Name: ${guild.name} Members: ${guild.memberCount}\``
       );
     });
   });
@@ -79,5 +79,5 @@ client.on("ready", () => {
   })
 })
 
-//client.login(process.env.TOKEN);
-client.login(config.token);
+client.login(process.env.TOKEN);
+//client.login(config.token);
