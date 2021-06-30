@@ -1,2 +1,2 @@
 # baby-lilith
-lilith's bot aka baby
+lilith's bot aka baby-lilith
